@@ -139,6 +139,12 @@ a:hover,a:focus {
 .intro-home{
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("../images/flying_general/IMG_5778.JPG");
 }
+.intro-deep_projects{
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("../images/deep_projects/gan.png");
+}
+.intro-deep_rc{
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("../images/deep_rc/IMG_2055.JPG");
+}
 .intro-mechatronics{
 	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url("../images/mechatronics/IMG_9582.JPG");
 }

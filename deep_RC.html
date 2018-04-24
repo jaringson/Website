@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Jaron Ellingson - Deep Remote Control</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/theme.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+		<i class="fa fa-bars"></i>
+		</button>
+		<a class="navbar-brand page-scroll" href="index.html">
+		JE
+		</a>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		<ul class="nav navbar-nav">
+			<li>
+			<a href="index.html#projects">Home</a>
+			</li>
+			<li>
+			<a href="#project" class="page-scroll">Project</a>
+			</li>
+			<li>
+			<a href="#videos" class="page-scroll">Videos</a>
+			</li>
+			<!--<li>
+			<a href="contact.html">Hire me</a>
+			</li> -->
+		</ul>
+	</div>
+	<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+<!-- Intro Header -->
+<header class="intro intro-deep_rc">
+<div class="intro-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="brand-heading">Deep Remote Control</h1>
+				<p class="intro-text">
+					Personal Research Project
+				</p>
+				<a href="#single-project" class="btn btn-circle page-scroll">
+				<i class="fa fa-angle-double-down animated"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+<!-- Project Details Section -->
+<section id="project">
+<div class="container content-section text-center">
+	<div class="row">
+		<h2>Project</h2>
+		<div class="col-lg-8 col-lg-offset-2">
+			<p>
+				This project seeks to answer the question as to whether controlling an aircraft from 3rd-person perspective is a viable solution for GPS-denied situations. It uses deep learning
+				to estimate the orientation of an aircraft and a point cloud with a simple flight model to get the
+				position of the aircraft. In this way, deep learning becomes a new sensor that could potentially replace GPS on an aircraft.
+			</p>
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators add data-interval="false" to stop auto scroll -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+ 			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to="4"></li>
+			    <!--<li data-target="#myCarousel" data-slide-to="5"></li> -->
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item  active">
+			      <img src="images/deep_rc/example_shapenet.png">
+			    </div>
+			    <div class="item">
+			      <img src="images/deep_rc/example_training.png">
+			    </div>
+			  	<div class="item">
+			      <img src="images/deep_rc/example_classify.png">
+			    </div>
+			    <div class="item">
+			      	<img src="images/deep_rc/IMG_2055.JPG">
+			    </div>
+			    <div class="item">
+			      <img src="images/deep_rc/IMG_2052.JPG">
+			    </div>
+			    <!-- 
+			    
+			    <div class="item">
+			      <img src="images/mechatronics/Circuit_Schematic.JPG" alt="New York">
+			    </div> -->
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+		</div>
+	</div>
+</div>
+	
+<section id="videos">
+	<div class="container content-section text-center">
+		<div class="row">
+			<h2>Videos </h2>
+			<p>
+			Flight simulation of Deep RC. Notice the cropped image which is fed into the deep learning orientation estimation. Also notice the point cloud which follows the plane as well as the plot. The plot's blue path is truth and the red path is estimated. 
+			</p>
+			 <video controls="controls" width="1000" height="600" 
+					name="Video Name" src="images/deep_rc/flight_test_tracking.mkv"></video>
+			<p>
+				<!-- <a href="#" class="btnghost"><i class="fa fa-envelope"></i> Request similar project</a> 
+				<i style="font-size:12px;margin-right:3px;"> or </i> -->
+				<a href="index.html#projects" class="btnghost"><i class="fa fa-camera"></i> Back to projects gallery</a>
+			</p>
+		</div>
+	</div>
+</section> 
+
+				
+
+	
+
+</section>
+<!-- Footer -->
+<footer>
+<div class="container text-center">
+	<p class="credits">
+		Copyright &copy; Jaron Ellingson 2018<br/>
+		"Aries" Template by WowThemes.net
+	</p>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/theme.js"></script>
+</body>
+</html>
